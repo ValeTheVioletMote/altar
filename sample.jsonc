@@ -1,0 +1,33 @@
+{
+    "schemaName":{
+        "tableName":{
+            "columns":{
+                "columnName":{
+                    "type":"",
+                    "length":"",
+                    "precision":"", // ?
+                    "scale":"", // ?
+                    "identity":"", // ?
+                    "collation":"",
+                    "nullable":true,
+                    "default":"",
+                    "comment":""
+                },
+                "columnNameAnother":{},
+                "thirdColumn":{}
+            },
+            "comment":"",
+            "hasOIDs":false, // ?
+            "keys":{
+                "primary":["localColumn"],
+                "foreign":[
+                    {
+                        "table":"foreignColumn",
+                        "local":"localColumn"
+                    }
+                ]
+            }
+            
+        }
+    }
+}
